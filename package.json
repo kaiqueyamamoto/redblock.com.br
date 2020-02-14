@@ -4,14 +4,22 @@
   "version": "1.0.1",
   "homepage": "http://creative-tim.com/product/blk-design-system",
   "author": "Creative Tim",
-  "license": "Creative Tim License <www.creative-tim.com/license>",
+  "scripts": {
+    "start": "nodemon ./service/server.js"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-clean": "^0.3.2",
     "gulp-install": "^1.1.0",
+    "gulp-open": "^2.1.0",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.3",
-    "gulp-open": "^2.1.0"
+    "gulp-sourcemaps": "^2.6.3"
+  },
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
   }
 }
