@@ -9,15 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/montserrat": "^4.5.13",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.12",
     "@next/font": "^13.0.1",
-    "@zeit/next-css": "^1.0.1",
-    "bootstrap": "^5.2.2",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.1",
     "next": "13.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "reactstrap": "^9.1.5",
-    "styled-components": "^5.3.6"
+    "react-dom": "18.2.0"
   }
 }
