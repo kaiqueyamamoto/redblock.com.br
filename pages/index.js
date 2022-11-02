@@ -1,6 +1,6 @@
 import React from 'react'
-import HeaderLinks  from '../components/Header'
-import NavBar from '../components/NavBar'
+import HeaderLinks  from './components/Header'
+import NavBar from './components/Navbar'
 import 'bootstrap/dist/css/bootstrap.css'
 
 
