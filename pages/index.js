@@ -1,5 +1,4 @@
 import React from 'react'
-import { Montserrat } from '@next/font/google'
 import HeaderLinks  from '../components/Header'
 import NavBar from '../components/NavBar'
 import 'bootstrap/dist/css/bootstrap.css'
